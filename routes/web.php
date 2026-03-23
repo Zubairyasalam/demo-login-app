@@ -139,3 +139,7 @@ Route::get('/testimonials', function () {
 Route::get('/reviews', function () {
     return view('auth.reviews');
 })->name('reviews');
+
+Route::get('/wishlist', function () {
+    return view('auth.wishlist');
+})->name('wishlist');
